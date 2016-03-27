@@ -1,0 +1,409 @@
+{
+  "result":
+  [
+    {
+      "name": "Γενικά",
+      "feed": "http://www.kathimerini.gr/rss",
+      "category":
+      {
+        "displayName": "Γενικά",
+        "name": "Γενικά",
+        "createdAt": "2015-07-09T19:57:55.728Z",
+        "id": "5591bddab8fdece921935501"
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591bdc0b8fdece9219354fc",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5591be9de9825d44278647bb",
+          "5591bf93e9825d44278647dc",
+          "5591c0d2e9825d44278647ff"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.kathimerini.gr/",
+        "feed": "",
+        "name": "Καθημερινή",
+        "created": "2015-06-29T21:54:37.443Z",
+        "id": "5591be4cb8fdece921935510"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-29T22:04:02.141Z",
+      "id": "5591c0d2e9825d44278647ff"
+
+    },
+    {
+
+      "name": "Γενικά",
+      "feed": "http://www.protothema.gr/rss/news/general/",
+      "category":
+
+      {
+
+        "displayName": "Γενικά",
+        "name": "Γενικά",
+        "createdAt": "2015-07-09T19:57:55.728Z",
+        "id": "5591bddab8fdece921935501"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591bdc0b8fdece9219354fc",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5591c1bee9825d4427864818"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.protothema.gr/",
+        "feed": "",
+        "name": "Πρώτο Θέμα",
+        "created": "2015-06-29T22:07:58.303Z",
+        "id": "5591c16bb8fdece921935585"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-29T22:07:58.305Z",
+      "id": "5591c1bee9825d4427864818"
+
+    },
+    {
+
+      "name": "Πολιτική",
+      "feed": "http://www.tovima.gr/feed/politics/",
+      "category":
+
+      {
+
+        "displayName": "Γενικά",
+        "name": "Γενικά",
+        "createdAt": "2015-07-09T19:57:55.728Z",
+        "id": "5591bddab8fdece921935501"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591bdc0b8fdece9219354fc",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5591c263e9825d4427864825"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.tovima.gr/",
+        "feed": "",
+        "name": "Το Βήμα",
+        "created": "2015-06-29T22:10:43.122Z",
+        "id": "5591c238b8fdece921935592"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-29T22:10:43.123Z",
+      "id": "5591c263e9825d4427864825"
+
+    },
+    {
+
+      "name": "Γενικά",
+      "feed": "http://www.capital.gr/api/tags/allfeed",
+      "category":
+
+      {
+
+        "displayName": "Γενικά",
+        "name": "Γενικά",
+        "createdAt": "2015-07-09T19:57:55.728Z",
+        "id": "5591bddab8fdece921935501"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591c327b8fdece9219355c3",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5591c43be9825d442786485c"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.capital.gr/",
+        "feed": "",
+        "name": "Capital.gr",
+        "created": "2015-06-29T22:18:35.328Z",
+        "id": "5591c34cb8fdece9219355ca"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-29T22:18:35.329Z",
+      "id": "5591c43be9825d442786485c"
+
+    },
+    {
+
+      "name": "Γενικά",
+      "feed": "http://feeds.feedburner.com/newsbombgr",
+      "category":
+
+      {
+
+        "displayName": "Γενικά",
+        "name": "Γενικά",
+        "createdAt": "2015-07-09T19:57:55.728Z",
+        "id": "5591bddab8fdece921935501"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591c517b8fdece921935617",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5591c621e9825d442786488c"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.newsbomb.gr/",
+        "feed": "",
+        "name": "NewsBomb.gr",
+        "created": "2015-06-29T22:26:41.372Z",
+        "id": "5591c5acb8fdece921935624"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-29T22:26:41.373Z",
+      "id": "5591c621e9825d442786488c"
+
+    },
+    {
+
+      "name": "Πολιτική",
+      "feed": "http://www.imerisia.gr/rss8.asp?catid=26496&subid=20120",
+      "category":
+
+      {
+
+        "displayName": "Οικονομία",
+        "name": "Οικονομία",
+        "createdAt": "2015-07-09T19:57:55.729Z",
+        "id": "5591c4aeb8fdece92193560e"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591c327b8fdece9219355c3",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5592ba27e9825d44278659e7",
+          "5592ba4ae9825d44278659ec",
+          "5592ba9fe9825d44278659f1"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.imerisia.gr/",
+        "feed": "",
+        "name": "Ημερησία",
+        "created": "2015-06-30T15:47:51.429Z",
+        "id": "5592b821b8fdece9219366d0"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-30T15:49:51.289Z",
+      "id": "5592ba9fe9825d44278659f1"
+
+    },
+    {
+
+      "name": "Γενικά",
+      "feed": "http://www.rizospastis.gr/rssFeed.do?channel=Top",
+      "category":
+
+      {
+
+        "displayName": "Γενικά",
+        "name": "Γενικά",
+        "createdAt": "2015-07-09T19:57:55.728Z",
+        "id": "5591bddab8fdece921935501"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591bdc0b8fdece9219354fc",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5592bccde9825d4427865a2d"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.rizospastis.gr/",
+        "feed": "",
+        "name": "Ριζοσπάστης",
+        "created": "2015-06-30T15:59:09.640Z",
+        "id": "5592bc93b8fdece921936744"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-30T15:59:09.643Z",
+      "id": "5592bccde9825d4427865a2d"
+
+    },
+    {
+
+      "name": "Οικονομία",
+      "feed": "http://www.real.gr/Rss.aspx?pid=150",
+      "category":
+
+      {
+
+        "displayName": "Οικονομία",
+        "name": "Οικονομία",
+        "createdAt": "2015-07-09T19:57:55.729Z",
+        "id": "5591c4aeb8fdece92193560e"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591c517b8fdece921935617",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5592e5e2e9825d4427865e90",
+          "5592e624e9825d4427865e95",
+          "5592e681e9825d4427865e9c"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.real.gr/",
+        "feed": "",
+        "name": "Real.gr",
+        "created": "2015-06-30T18:54:26.748Z",
+        "id": "5592e59fb8fdece921936abb"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-30T18:54:26.750Z",
+      "id": "5592e5e2e9825d4427865e90"
+
+    },
+    {
+
+      "name": "Πολιτική",
+      "feed": "http://www.real.gr/Rss.aspx?pid=151",
+      "category":
+
+      {
+
+        "displayName": "Πολιτική",
+        "name": "Πολιτική",
+        "createdAt": "2015-07-09T19:57:55.729Z",
+        "id": "5592e608b8fdece921936b28"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591c517b8fdece921935617",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5592e5e2e9825d4427865e90",
+          "5592e624e9825d4427865e95",
+          "5592e681e9825d4427865e9c"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.real.gr/",
+        "feed": "",
+        "name": "Real.gr",
+        "created": "2015-06-30T18:54:26.748Z",
+        "id": "5592e59fb8fdece921936abb"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-30T18:55:32.349Z",
+      "id": "5592e624e9825d4427865e95"
+
+    },
+    {
+
+      "name": "Κοινωνία",
+      "feed": "http://www.real.gr/Rss.aspx?pid=149",
+      "category":
+
+      {
+
+        "displayName": "Κοινωνία",
+        "name": "Κοινωνία",
+        "createdAt": "2015-07-09T19:57:55.730Z",
+        "id": "5592e669b8fdece921936b31"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591c517b8fdece921935617",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5592e5e2e9825d4427865e90",
+          "5592e624e9825d4427865e95",
+          "5592e681e9825d4427865e9c"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.real.gr/",
+        "feed": "",
+        "name": "Real.gr",
+        "created": "2015-06-30T18:54:26.748Z",
+        "id": "5592e59fb8fdece921936abb"
+      },
+      "isMainFeed": false,
+      "createdAt": "2015-06-30T18:57:05.252Z",
+      "id": "5592e681e9825d4427865e9c"
+
+    },
+    {
+
+      "name": "Γενικά",
+      "feed": "http://www.newsit.gr/rss/artrss.php",
+      "category":
+
+      {
+
+        "displayName": "Γενικά",
+        "name": "Γενικά",
+        "createdAt": "2015-07-09T19:57:55.728Z",
+        "id": "5591bddab8fdece921935501"
+
+      },
+      "parentNewsSource":
+      {
+
+        "category": "5591c517b8fdece921935617",
+        "gravity": 1,
+        "subcategories":
+
+        [
+          "5592e79fe9825d4427865ebb"
+        ],
+        "tags": [ ],
+        "rootUrl": "http://www.newsit.gr/",
+        "feed": "",
+        "name": "NewsIt",
+        "created": "2015-06-30T19:01:51.824Z",
+        "id": "5592e786b8fdece921936c0f"
+      },
+      "isMainFeed": true,
+      "createdAt": "2015-06-30T19:01:51.826Z",
+      "id": "5592e79fe9825d4427865ebb"
+    }
+  ],
+  "error": null,
+  "success": true
+
+}

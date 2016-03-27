@@ -1,0 +1,37 @@
+<div data-ng-controller="APIController" ng-init="init()">
+
+    <div class="pageheader ng-scope">
+        <h1>API documentation</h1>
+        <p class="description">Oramind platform v 0.5</p>
+        <hr/>
+
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div ng-repeat="doc in docItems">
+                    <h3>{{doc.requestType}} {{doc.path}}</h3>
+                        <p>{{doc.summary}}</p>
+                    <strong>arguments</strong>
+                    <table class="table">
+                        <tr ng-repeat="arg in doc.arguments">
+                            <td>{{arg.name}}</td>
+                            <td>{{arg.type}}</td>
+                            <td>{{arg.summary}}</td>
+                            <td>{{arg.required ? "required" : "optional"}}</td>
+                            <td>Default: {{arg.default}}</td>
+                        </tr>
+                    </table>
+
+                    <hr/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

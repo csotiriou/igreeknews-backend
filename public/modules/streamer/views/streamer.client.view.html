@@ -1,0 +1,43 @@
+<div data-ng-controller="StreamerController" ng-init="init()">
+    <div class="pageheader ng-scope">
+        <h1>Service demo v 0.0.1</h1>
+    </div>
+
+
+
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Borderless Table</h3>
+            <div class="actions pull-right">
+                <i data-fullscreen-widget="" class="fa fa-expand"></i>
+                <i data-widget-toggle="" class="fa fa-chevron-down"></i>
+                <i data-widget-close="" class="fa fa-times"></i>
+            </div>
+        </div>
+        <div class="panel-body">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Tweet text</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr data-ng-repeat="tweet in tweets track by $index">
+                    <td>{{tweet.text}}</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <hr/>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-primary" data-ng-click="buttonClicked()">Initialize</button>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-primary" data-ng-click="toggleButtonPressed()">Toggle updates</button>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,29 @@
+<div data-ng-controller="DashboardController" ng-init="init()">
+
+    <div class="row masonry-container">
+        <div masonry masonry-options="{ transitionDuration: '0.4s', 'gutter': 10 }" class="blog-item">
+            <div class="masonry-brick" ng-repeat="lead in downloadedLeads" style="width: 350px;">
+
+
+                <div class="thumbnail">
+                    <div ng-if="lead.imageUrl">
+                        <img src="{{lead.imageUrl}}" class="img-responsive" style="width: 100%; min-height:220px;"/>
+                    </div>
+                    <div class="caption">
+                        <h3>{{lead.title}}</h3>
+                        <p>{{lead.summary}}</p>
+                        <hr class="dotted">
+                        {{lead.publicationDate}}<br/>
+                                    <span class="autor-post">
+                                        by <a href="#">{{lead.hostName}}</a>
+                                    </span>
+                        <a href="{{lead.url}}" target="_blank" class="btn btn-ar btn-primary pull-right" role="button">Read more »</a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

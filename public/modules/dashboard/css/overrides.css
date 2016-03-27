@@ -1,0 +1,20 @@
+.panel-heading > .panel-title {
+    height: auto;
+    font-size: 15px;
+    text-transform: none;
+    max-width: 90%;
+    font-weight: bold;
+}
+
+
+.article-source {
+    font-size : 12px;
+    color: #0055aa;
+    text-align: left;
+}
+
+.article-date {
+    font-size : 12px;
+    color: #006600;
+    text-align: right;
+}

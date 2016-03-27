@@ -1,0 +1,59 @@
+<div data-ng-controller="TwitterController" ng-init="init()">
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="masonry-container">
+                <div masonry masonry-options="{ transitionDuration: '0.4s', 'gutter': 10 }" class="blog-item">
+                    <div class="masonry-brick" ng-repeat="twitterLead in downloadedLeads" style="width: 350px;">
+
+
+                        <div class="thumbnail">
+                            <img src="{{twitterLead.user.profileImageUrl}}" class="circularImage" style="float: left; margin-right: 10px;"/>
+                            <span class="autor-post">
+                                by <a href="https://twitter.com/{{twitterLead.user.screenName}}">{{twitterLead.user.name}}</a>
+                                <br/>
+                                <a href="https://twitter.com/{{twitterLead.user.screenName}}">@{{twitterLead.user.screenName}};</a>
+                            </span>
+
+                            <div ng-if="twitterLead.photos.length > 0" style="margin-top: 20px;">
+                                <img src="{{twitterLead.photos[0]}}" class="img-responsive" style="width: 100%;"/>
+                            </div>
+                            <div class="caption">
+
+                                <h4>{{twitterLead.text}}</h4>
+                                <hr class="dotted">
+
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        {{twitterLead.timestamp}}<br/>
+                                    </div>
+                                    <div ng-if="twitterLead.urls.length > 0">
+                                        <div class="col-md-4"><a href="{{twitterLead.urls[0]}}" target="_blank" class="btn btn-ar btn-primary pull-right" role="button">Go »</a></div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="hpanel">
+                <div class="panel-heading hbuilt">
+                    Δημοφιλή Hashtags
+                </div>
+                <div class="panel-body" style="display: block;">
+                    <div data-ng-repeat="tag in downloadedHashTags">
+                        <a href="https://twitter.com/hashtag/{{tag.text}}" class="text-info">#{{tag.text}}</a>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    Stats provided by oramind.com
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

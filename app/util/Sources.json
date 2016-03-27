@@ -1,0 +1,214 @@
+{
+  "sources" : {
+
+    "categories" : [
+      {
+        "name": "Blogs",
+        "sources": [
+          {
+            "name": "Τρομακτικό",
+            "feed": "http://feeds.feedburner.com/blogspot/hyMBI?format=xml",
+            "tags": "",
+            "rootUrl": "http://tro-ma-ktiko.blogspot.gr/",
+            "subcategories": []
+          },
+          {
+            "name": "Πιτσιρίκος",
+            "feed": "http://feeds.feedburner.com/pitsirikos/uPfN",
+            "tags": "",
+            "rootUrl": "http://pitsirikos.net/",
+            "subcategories": []
+          },
+          {
+            "name" : "Antinews",
+            "feed" : "http://www.politiko-kafeneio.gr/neo_1/feed",
+            "tags" : "",
+            "rootUrl" : "http://www.antinews.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Tsantiri",
+            "feed" : "http://www.tsantiri.gr/feed/",
+            "tags" : "",
+            "rootUrl" : "http://www.tsantiri.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Lifo.gr",
+            "feed" : "http://www.lifo.gr/blogs.rss",
+            "tags" : "",
+            "rootUrl" : "http://www.lifo.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "24wro",
+            "feed" : "http://feeds.feedburner.com/blogspot/BBfGP?format=xml",
+            "tags" : "",
+            "rootUrl" : "http://www.24wro.eu",
+            "subcategories" : []
+          },
+          {
+            "name": "stoxasmos-politiki",
+            "feed": "http://feeds.feedburner.com/http/feedsfeedburnercom/stoxasmos-politikhblogspotcom/feeds/posts/default?format=xml",
+            "tags": "",
+            "rootUrl": "http://stoxasmos-politikh.blogspot.gr/",
+            "subcategories": []
+          },
+          {
+            "name" : "xOrisOria News",
+            "feed" : "http://www.xorisorianews.gr/feed/",
+            "tags" : "",
+            "rootUrl" : "http://www.xorisorianews.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Fimotro",
+            "feed" : "http://fimotro.blogspot.com/feeds/posts/default?alt=rss",
+            "tags" : "",
+            "rootUrl" : "http://fimotro.blogspot.gr/",
+            "subcategories" : []
+          }
+        ]
+      },
+      {
+        "name" : "News Sites",
+        "sources" : [
+          {
+            "name": "eglimatikotita.gr",
+            "feed": "http://feeds.feedburner.com/http/eglimatikotitablogspotcom",
+            "tags": "",
+            "rootUrl": "http://www.eglimatikotita.gr/",
+            "subcategories": []
+          },
+          {
+            "name" : "News Bomb",
+            "feed" : "http://feeds.feedburner.com/newsbombgr",
+            "tags" : "",
+            "rootUrl" : "http://www.newsbomb.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "TVXS",
+            "feed" : "http://tvxs.gr/feeds/all/feed.xml",
+            "tags" : "",
+            "rootUrl" : "http://tvxs.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Trelokouneli.gr",
+            "feed" : "http://feeds.feedburner.com/trelokouneli/YZEp?format=xml",
+            "tags" : "",
+            "rootUrl" : "http://www.trelokouneli.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Newsit.gr",
+            "feed" : "http://www.newsit.gr/rss/artrss.php",
+            "tags" : "",
+            "rootUrl" : "http://www.newsit.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Enikos.gr",
+            "feed" : "http://www.enikos.gr/feeds/content_latest.xml",
+            "tags" : "",
+            "rootUrl" : "http://www.enikos.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "e-typos",
+            "feed" : "http://www.e-typos.com/gr/feeds/rss/",
+            "tags" : "",
+            "rootUrl" : "http://www.e-typos.com/",
+            "subcategories" : []
+          }
+        ]
+      },
+      {
+        "name" : "News Papers",
+        "sources" : [
+          {
+            "name": "Καθημερινή",
+            "feed": "http://www.kathimerini.gr/rss",
+            "tags": "",
+            "rootUrl": "http://www.kathimerini.gr/",
+            "subcategories": []
+          },
+          {
+            "name" : "Πρώτο Θέμα",
+            "feed" : "http://www.protothema.gr/rss/",
+            "tags" : "",
+            "rootUrl" : "http://www.protothema.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Το Βήμα",
+            "feed" : "http://www.tovima.gr/feed/politics/",
+            "tags" : "",
+            "rootUrl" : "http://www.tovima.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Τα Νέα",
+            "feed" : "http://www.tanea.gr/rss.axd",
+            "tags" : "",
+            "rootUrl" : "http://www.tanea.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Real.gr",
+            "feed" : "http://www.real.gr/Rss.aspx?pid=151",
+            "tags" : "",
+            "rootUrl" : "http://www.real.gr/",
+            "subcategories" : [
+              {"categoryName" : "Sports", "feed" : "http://www.real.gr/Rss.aspx?pid=146"}
+            ]
+          },
+          {
+            "name" : "Athens Voice",
+            "feed" : "http://www.athensvoice.gr/fast-news/feed",
+            "tags" : "",
+            "rootUrl" : "http://www.athensvoice.gr/",
+            "subcategories" : []
+          },
+          {
+            "name" : "Το Έθνος",
+            "feed" : "http://www.ethnos.gr/rss8.asp?catid=22733&subid=20120",
+            "tags" : "",
+            "rootUrl" : "http://www.ethnos.gr/",
+            "subcategories" : []
+          }
+        ]
+      },
+      {
+        "name" : "Economy",
+        "sources" : [
+          {
+            "name" : "Ναυτεμπορική",
+            "feed" : "http://www.naftemporiki.gr/rssFeed?mode=section&id=2&atype=story",
+            "tags" : "",
+            "rootUrl" : "http://www.naftemporiki.gr/",
+            "subcategories" : [
+              {
+                "category" : "Οικονομία & Αγορές",
+                "url" : "http://www.naftemporiki.gr/rssFeed?mode=section&id=1&atype=story"
+              }
+            ]
+          },
+          {
+            "name" : "Κέρδος",
+            "feed" : "http://www.kerdos.gr/rss/Οικονομία.xml",
+            "tags" : "",
+            "rootUrl" : "http://www.kerdos.gr/",
+            "subcategories" : []
+          }
+        ]
+      },
+      {
+        "name" : "Sports",
+        "sources" : []
+      }
+    ]
+  }
+}
+
