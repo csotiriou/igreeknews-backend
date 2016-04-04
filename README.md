@@ -53,8 +53,8 @@ Arhitecture taken from [MEAN.js's excellent template](https://github.com/meanjs/
 
 ####Some sample links
 
-- [Sample Twitter Front](http://oramind.net/#!/twitter), [API](http://oramind.net/api/twitter/leads)
-- [Sample FrontPage](http://oramind.net/#!/dashboard), [API](http://oramind.net/api/leads)
+- [Sample Twitter Front](http://oramind.net:3000/#!/twitter), [API](http://oramind.net:3000/api/twitter/leads)
+- [Sample FrontPage](http://oramind.net:3000/#!/dashboard), [API](http://oramind.net:3000/api/leads)
 
 There are many more paths and routes.
 
